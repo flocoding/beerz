@@ -1,4 +1,4 @@
-class Bartender < Person
+class Bartender
 	attr_accessor :name
 
 	customers = []
