@@ -9,6 +9,7 @@ class Inventorybeer
     @model = country
     @price = price
     @quantity = quantity
+    @catalogue = []
   end
 
 end
