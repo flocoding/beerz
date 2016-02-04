@@ -1,5 +1,3 @@
-require 'beer'
-require 'inventory'
 require 'bartender'
 require 'customer'
 
