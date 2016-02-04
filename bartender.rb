@@ -8,8 +8,11 @@ class Bartender < Person
 		customers << customer
 	end
 
-	def serve(beer)
+	def serve(customer)
 		puts "gives beer to customer"
 	end
 
+	def farewell(customer)
+		puts "See you later, #{customer}"
+	end
 end

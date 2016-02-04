@@ -1,8 +1,8 @@
-class customer
+class Customer
 
-    def initialize (name="anonymous)
-    @beers_had = []
-    @amount_drank = 0
-
+    def initialize name
+    	@beers_had = []
+    	@amount_drank = 0
+	end
 
 end
